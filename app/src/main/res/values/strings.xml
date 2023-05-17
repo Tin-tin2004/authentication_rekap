@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Rekap</string>
+    <string name="name">ReKap</string>
+    <string name="aboutUs">"More than just a note taking app"\n\n       Rekap is not just a note app, but it is also an app for your reviewers, for listening to music and setting up time to help you manage your time when it comes to studying.</string>
+    <string name="line2">\n     This application were created for those students who wish to take notes, review, and listens to music while studying. The purpose of this application is to help students or the future users of this application to be able to study and review their studies through this application by taking notes while also being able to manage their time and have a proper rest. </string>
+
+
+    <string name="login">No Account? Sign-In here</string>
+    <string name="SignIn">Already have an account? Log-In here </string>
+
+    <string name="add_image">Add Image</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="add_file">Add File</string>
+    <string name="flashcard">Flashcard</string>
+    <string name="delete">Delete</string>
+    <string name="cont_des" />
+    <string name="title_flashcard">Flashcard Title</string>
+
+</resources>

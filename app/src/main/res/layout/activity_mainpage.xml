@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".mainPage"
+    android:background="@drawable/new_new_background">
+
+    <ImageView
+        android:id="@+id/noBg_ppl"
+        android:layout_width="395dp"
+        android:layout_height="234dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/nobg_ppl"
+        android:contentDescription=" " />
+
+    <Button
+        android:layout_width="247dp"
+        android:layout_height="73dp"
+        android:layout_below="@id/noBg_ppl"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/ReviewBtn"
+        android:background="@drawable/bg"
+        android:fontFamily="casual"
+        android:text="Review"
+        android:textColor="#FF6F00"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/aboutUsBtn"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ReviewBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg"
+        android:fontFamily="casual"
+        android:text="About Us"
+        android:textColor="#FF6F00"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/bookmark"
+        android:title="@string/bookmark"
+        android:visible="true"
+        android:onClick="bkmark"
+        />
+    <item
+        android:id="@+id/addImage"
+        android:title="@string/add_image"
+        android:visible="true"
+        android:onClick="addImg"
+        />
+    <item
+        android:id="@+id/addFile"
+        android:title="@string/add_file"
+        android:visible="true"
+        android:onClick="addFile"
+        />
+    <!--
+    <item
+        android:id="@+id/flashcard"
+        android:title="@string/flashcard"
+        android:visible="true"
+        android:onClick="flshcard"
+        />
+    -->
+
+
+    <item
+        android:id="@+id/delete"
+        android:title="@string/delete"
+        android:visible="true"
+        android:onClick="del"
+        />
+
+
+</menu>

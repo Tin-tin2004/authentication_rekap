@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/paper"
+    tools:context=".create_notes">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/ralitveLayout1"
+        android:background="#FFE0C7">
+
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/back_bttn"
+            android:padding="12dp"
+            android:contentDescription=" "/>
+
+        <ImageButton
+            android:id="@+id/edit_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toLeftOf="@id/save"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ic_edit"
+            android:contentDescription=" "
+            android:padding="12dp" />
+
+        <ImageButton
+            android:id="@+id/save"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/ic_check_icon"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize"
+            android:contentDescription=" "/>
+
+    </RelativeLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittext_title"
+        android:hint="Title"
+        android:inputType="text"
+        android:fontFamily="casual"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:singleLine="true"
+        android:background="@null"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_below="@id/ralitveLayout1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittext_notes"
+        android:inputType="textMultiLine"
+        android:hint="Notes..."
+        android:padding="8dp"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:fontFamily="casual"
+        android:textSize="24sp"
+        android:background="@null"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_below="@id/edittext_title"/>
+
+
+    <androidx.appcompat.widget.ActionMenuView
+        android:id="@+id/popupMenu"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="18dp"
+        android:background="@drawable/add_circle"
+        android:contentDescription="@string/cont_des"
+        android:elevation="60dp"
+        android:onClick="actionMenu"
+        />
+
+
+
+</RelativeLayout>
